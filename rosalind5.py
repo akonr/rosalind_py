@@ -2,13 +2,6 @@ from Bio import SeqIO
 from Bio.SeqUtils import GC
 import collections
 
-# rosalind_vaja = open("resitev_rosalind_gc.txt", "w")
-# for seq_record in SeqIO.parse("probaGC.txt", "fasta"):
-#     print(seq_record.id + "\n" + str(GC(repr(seq_record)))
-#                         + "\n")
-#
-# rosalind_vaja.close()
-
 
 def read_genome(filename):
     genome = ""
